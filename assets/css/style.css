@@ -1,0 +1,14 @@
+.image-container-property {
+    background-color: black;
+    width: 300px;
+    height: 150px;
+}
+
+.black {
+    background-color: brown;
+    color: blue;
+}
+
+#color {
+    color:chartreuse;
+}

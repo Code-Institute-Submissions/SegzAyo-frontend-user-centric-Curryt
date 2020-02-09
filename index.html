@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Frontend User-centric Project: Curryt-Restaurant</title>
 </head>
 <body>
 <!------------------------------------------------------------------------------------Navigation Menu Bar-->
     <header>
-         <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-0">
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-0 " id="Navbar-property">
             <a class="navbar-brand" href="index.html">curryt</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggleDropDown">
                 <span class="navbar-toggler-icon"></span>
@@ -35,30 +35,47 @@
                 </div>   
          </nav>
 <!--------------------------------------------------------------------------------Front-Page-Image-And-Message-->         
+        <div class="container-fluid image-container-property">
          <div class="row">
-            <div class="col image-container-property">
-                <h2 class="black">
+            <div class="col">
+                <h2>
                 Few words about restaurant
                 </h2>
             </div>
          </div>
+        </div>
            
     </header>
     <section>
-        <div class="row">
-            <div class="Col">
-                <P id="color">A little text about the menu</P>
+        <div class="container-fluid">
+            <div class="row Textcenter">
+                <div class="col col-xm-12 col-sm-12 col-md-8 col-lg-8 ">
+                    <P>What is Lorem Ipsum?
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a 
+                        type specimen book. It has survived not only five centuries, but also the 
+                        leap into electronic typesetting, remaining essentially unchanged. It was 
+                        popularised in the 1960s with the release of Letraset sheets containing 
+                        Lorem Ipsum passages, and more recently with desktop publishing software 
+                        like Aldus PageMaker including versions of Lorem Ipsum.</P>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-                <ul class="list-inline">
-                    <li class="list-inline-item"><span>Pizza</span></li>
-                    <li class="list-inline-item"><span>Pasta</span></li>
-                    <li class="list-inline-item"><span>Veggie</span></li>
-                </ul>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <ul class="list-inline">
+                        <li class="col-xs-12 col-sm-12 col-md-3 list-inline-item Menu-Cat">
+                        <span href="#">Pizza</span></li>
+                        <li class="col-xs-12 col-sm-12 col-md-3 list-inline-item Menu-Cat">
+                        <span href="#">Pasta</span></li>
+                        <li class="col-xs-12 col-sm-12 col-md-3 list-inline-item Menu-Cat">
+                        <span href="#">Veggie</span></li>
+                    </ul>
+                </div>
             </div>
-        </div>
+        </div>    
 
     
     </section>

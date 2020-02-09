@@ -1,14 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700|Raleway&display=swap:100,200,300,400,500,600,700');
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: 0;
+}
+
+}
+
+header {
+    margin: 0;
+}
 .image-container-property {
-    background-color: black;
+    text-align: center;
+    height: 576px;
+    background-image: url("/assets/images/chef-preparing-vegetable-dish-on-tree-slab-1267320.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}  
+
+.Textcenter {
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align: center;
+}
+
+
+}
+
+.Menu-Cat {
+    text-align: center;
     width: 300px;
-    height: 150px;
-}
-
-.black {
-    background-color: brown;
-    color: blue;
-}
-
-#color {
-    color:chartreuse;
+    height: 200px;
+    background-color: red;
 }

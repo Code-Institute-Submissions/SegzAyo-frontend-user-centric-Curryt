@@ -1,12 +1,59 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700|Raleway&display=swap:100,200,300,400,500,600,700');
+@import url("https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap");
 
 
 /*---------------------------------------------------Fonts Styling----------------*/
 
-.headings-style {
-    font-family: 'swap';
+
+.Logo-styling {
+    font-family: cursive;
+    font-weight: 100;
+    font-size: 20px;
+    color: #FF1E00;
+
 }
 
+
+.Landing-image-logo-styling {
+    font-family: cursive;
+    font-weight: 100;
+    font-size: 60px;
+    margin-top: 350px;
+    color: #fff;
+}
+
+.Menu-image-logo-styling {
+    font-family: cursive;
+    font-weight: 100;
+    font-size: 60px;
+    margin-top: 200px;
+    color: #fff;
+}
+
+.headings0-style {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+.headings-style {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: rgb(247, 58, 58);
+
+}
+
+.Text-body-style-1 {
+    padding-top: 20px;
+    font-family: 'Lato', sans-serif;
+    color: #310000;
+}
+
+.Text-body-style {
+    font-family: 'Lato', sans-serif;
+    color: #f2f2f3
+}
 
 
 header {
@@ -14,8 +61,8 @@ header {
 }
 
 #Navbar-property {
-    background-color: #230600;
-    color: #fff;
+    background-color: black;
+    color: #FF1E00;
 }
 
 .image-container-property {
@@ -27,13 +74,28 @@ header {
     
 }  
 
-.welcome-message {
-    margin-top: 350px;
+.Menu-header-property {
+    text-align: center;
+    height: 360px;
+    background-image: url("/assets/images/chef-preparing-vegetable-dish-on-tree-slab-1267320.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
+.section1-style {
+    background-color: #FFF2F2;
+}
+
+.section2-style {
+    padding: 60px 0;
+    background-color: #FFF2F2;
+
+}
+
+
 .Intro-text {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
 
 .Menu-Categories {
@@ -44,10 +106,19 @@ header {
     
 }
 
+.MenuCat-section-style {
+    padding: 50px 0 30px 0;
+}
+
 .Menu-Cat-spacing {
     margin-bottom: 5px;
 
 
+}
+
+.Button-style {
+    margin: 30px 0;
+    
 }
 
 .Veggie {
@@ -72,13 +143,17 @@ header {
    
 }
 
-.PizPasVeg1 {
-    margin: 0, auto;
+.PizPasVeg {
+    position: relative;
+    top: 150px;
     color: white;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 .footer-prop {
-    background-color: #230600;
+    background-color: black;
     color: beige;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -95,11 +170,74 @@ header {
 
 /*----------------------------------------------------------------MENU IMAGES--*/
 .menu-image1 {
+    background-image: url("/assets/images/114670765-italian-pizza-margherita-with-tomatoes-and-mozzarella-cheese-on-wooden-cutting-board-close-up.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-image2 {
+    background-image: url("/assets/images/18cb78f0e7dc9455712656ad075f67ad.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-image3 {
+    background-image: url("/assets/images/12.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-image4 {
+    background-image: url("/assets/images/bucatini-all-amatriciana.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-image5 {
+    background-image: url("/assets/images/Gnocchi-alla-Sorrentina-Ricetta-Napoletana.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-image6 {
+    background-image: url("/assets/images/Pomodoro-Sauce-foodiecrush.com-015.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-image7 {
+    background-image: url("/assets/images/tortilla-patatas-2-lr-750x390.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-image8 {
+    background-image: url("/assets/images/15951---Vegetable-Spring-Rolls.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-image9 {
     background-image: url("/assets/images/DSC_4464111.jpg");
     background-size: cover;
     background-position: center;
 }
 
+.menu-images-spacing {
+    padding: 20px 0;
+    
 
+}
+
+
+.Display-menu-inline {
+    display: inline-block;
+    margin: 5px 15px 50px 15px;
+
+}
+
+.menu-itro-style {
+    padding: 20px 80px;
+}
 
 

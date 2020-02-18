@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Frontend User-centric Project: Curryt-Restaurant</title>
+</head>
+<body>
+<!----------------------------------------------------------------------------------------Navigation Menu Bar-->
+    <header>
+         <nav class="navbar navbar-expand-lg navbar-dark my-0 " id="Navbar-property">
+            <a class="navbar-brand Logo-styling" href="index.html">Curryt</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggleDropDown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="toggleDropDown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>    
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="menu.html" class="nav-link">Menu</a>
+                        </li>    
+                        <li class="nav-item">
+                            <a href="reservation-form.html" class="nav-link active">Reservation</a>
+                        </li>
+                    </ul>
+                </div>   
+         </nav>
+<!------------------------------------------------------------------------------------Header-Image-And-Message-->         
+        <div class="container-fluid Menu-header-property">
+         <div class="row">
+            <div class="col">
+                <h1 class="Menu-image-logo-styling">
+                Reservation
+                </h1>
+            </div>
+         </div>
+        </div>
+<!------------------------------------------------------------------------------------------------Form-Design-->   
+    </header>
+    <section>
+<div class="container form-container">
+    <form>
+        <div class="form-row justify-content-center Row-style">
+            <div class="col col-10 col-md-8 form-item">
+                <input type="text" class="form-control form-control-sm" placeholder="Full name">
+            </div>
+            <div class="col col-10 col-md-8 form-item">
+                <input type="tel" class="form-control form-control-sm" placeholder="Phone number">
+            </div>
+            <div class="col col-10 col-md-8 form-item">
+                <input type="email" class="form-control form-control-sm" placeholder="email">
+            </div>
+            <div class="col col-10 col-md-8 form-item">
+                <input type="number" class="form-control form-control-sm" placeholder="Number of persons" min="1" max="10">
+            </div>
+        <!----   <div class="col col-10 col-md-8 form-radio">
+                <input type="radio" name="dinner" id="dinner" class="form-check-input">
+                <label for="dinner" class="form-check-label">Dinner</label>
+            </div>
+            <div class="col col-10 col-md-8 form-radio">
+                <input type="radio" name="lunch" id="lunch" class="form-check-input">
+                <label for="lunch" class="form-check-label">Lunch</label>
+            </div> -->
+            <div class="col col-10 col-md-8">
+                <input type="date" name="date" class="form-control form-control-sm" placeholder="Date">
+            </div>
+              <button type="button" class="col col-5 btn btn-outline-danger form-item">Submit</button>
+        </div>
+    </form>
+</div>
+    </section>
+    <!-------------------------------------------------------------------------------------------------Footer-->
+    <footer>
+        <div class="container-fluid footer-prop">
+            <div class="row justify-content-center">
+                <div class="col col-12 col-md-4">
+                    <h5>About Us</h5>
+                    <p>
+                    It is a long established fact that a reader will be distracted 
+                    by the readable content of a page when looking at its layout. 
+                    </p>
+                </div>
+                <div class="col col-12 col-md-4">
+                    <h5>Contact</h5>
+                    <p>
+                    9623 Jefferson Street
+                    Huntley, IL 60142, Stockholm, Sweden.
+                    </p>
+                    <p><i class="fas fa-phone"></i>+555-2345-225</p>
+                    <p><i class="fas fa-envelope-square"></i>contact_us@curryt.com</p>
+                </div>
+                <div class="col col-12 col-md-4">
+                <h5>Opening Hours</h5>
+                <p>Monday-Friday</p>
+                <p>11am-10pm</p>
+                <p>Monday-Friday</p>
+                <p>2pm-12pm</p>
+                </div>
+            </div>
+        </div>
+    
+    </footer>  
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
+</body>
+</html>

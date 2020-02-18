@@ -77,7 +77,7 @@ header {
 .Menu-header-property {
     text-align: center;
     height: 360px;
-    background-image: url("/assets/images/chef-preparing-vegetable-dish-on-tree-slab-1267320.jpg");
+    background-image: url("/assets/images/restaurant-dark-bar-architecture-34650.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -218,7 +218,7 @@ header {
 }
 
 .menu-image9 {
-    background-image: url("/assets/images/DSC_4464111.jpg");
+    background-image: url("/assets/images/zi3000-shutterstock-buddha-bowl.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -240,4 +240,21 @@ header {
     padding: 20px 80px;
 }
 
+/*------------------------------------------------------------------------------------------------Form-style--*/
 
+.form-item {
+    margin: 5px 0;
+}
+
+
+
+.form-container {
+    padding: 50px 0;
+   
+}
+
+.Row-style {
+    margin: 50px;
+    padding: 50px 0;
+    background-color: #FFF2F2;
+}

@@ -10,7 +10,7 @@
     <title>Frontend User-centric Project: Curryt-Restaurant</title>
 </head>
 <body>
-<!----------------------------------------------------------------------------------------Navigation Menu Bar-->
+<!------------------------------------------------------------------------------------Navigation Menu Bar-->
     <header>
          <nav class="navbar navbar-expand-lg navbar-dark my-0 " id="Navbar-property">
             <a class="navbar-brand Logo-styling" href="index.html">Curryt</a>
@@ -21,65 +21,72 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
                             <a href="index.html" class="nav-link">Home</a>
-                        </li>    
-                        <li class="nav-item">
-                            <a href="about-us.html" class="nav-link">About Us</a>
-                        </li>
+                        </li>   
                         <li class="nav-item">
                             <a href="menu.html" class="nav-link">Menu</a>
-                        </li>    
+                        </li>  
                         <li class="nav-item">
-                            <a href="reservation-form.html" class="nav-link active">Reservation</a>
+                            <a href="about-us.html" class="nav-link active">About Us</a>
+                        </li>  
+                        <li class="nav-item">
+                            <a href="reservation-form.html" class="nav-link">Reservation</a>
                         </li>
                     </ul>
                 </div>   
          </nav>
-<!------------------------------------------------------------------------------------Header-Image-And-Message-->         
+<!--------------------------------------------------------------------------------Front-Page-Image-And-Message-->         
         <div class="container-fluid Menu-header-property">
          <div class="row">
             <div class="col">
                 <h1 class="Menu-image-logo-styling">
-                Reservation
+                About Us
                 </h1>
+                <a href="reservation-form.html">
+                        <button type="button" class="btn btn-outline-light btn-sm">Make Reservation</button>
+                    </a>
             </div>
-         </div>
+         </div> 
         </div>
-<!------------------------------------------------------------------------------------------------Form-Design-->   
+<!-------------------------------------------------------------------------------------------------Menu-Design-->   
     </header>
     <section>
-<div class="container-fluid form-container">
-    <form action="https://codeinstitute.net/" method="post">
-        <div class="form-row justify-content-center Row-style">
-            <div class="col col-10 col-md-8 form-item">
-                <input type="text" class="form-control form-control-sm" placeholder="Full name">
-            </div>
-            <div class="col col-10 col-md-8 form-item">
-                <input type="tel" class="form-control form-control-sm" placeholder="Phone number">
-            </div>
-            <div class="col col-10 col-md-8 form-item">
-                <input type="email" class="form-control form-control-sm" placeholder="email">
-            </div>
-            <div class="col col-10 col-md-8 form-item">
-                <input type="number" class="form-control form-control-sm" placeholder="Number of persons" min="1" max="10">
-            </div>
-            <!----
-                <div class="col col-10 col-md-8 form-radio">
-                    <input type="radio" name="dinner" id="dinner" class="form-check-input">
-                    <label for="dinner" class="form-check-label">Dinner</label>
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col col-md-8 col-lg-8 Intro-text About-Col-spacing">
+                    <h5 class="headings-style">Who We Are</h5>
+                    <P class="col col-10 mx-auto">Curryt Restaurant serves a modern selection of most 
+                    popular and most loved dishes as well as the mouth watering desserts. 
+                    We serve not only healthy but also nutritious food 
+                    for you and your family.</P>
                 </div>
-                <div class="col col-10 col-md-8 form-radio">
-                    <input type="radio" name="lunch" id="lunch" class="form-check-input">
-                    <label for="lunch" class="form-check-label">Lunch</label>
-                </div> -->
-            <div class="col col-10 col-md-8">
-                <input type="date" name="date" class="form-control form-control-sm" placeholder="Date">
+                <div class="col-md-6 chef-image About-Col-spacing">
+                    <!---Image-Upload--->
+                </div>
+                <div class="col-md-6 About-Col-spacing my-auto">
+                    <h5>Chef Ramzey</h5>
+                    <p>Chef Ramzey has been recognized as one of the top chefs in the world. 
+                    In 1998, the James Beard Foundation named Ripert “Top Chef in New York City” 
+                    and in 2003, “Outstanding Chef in the United States.” In September 2009, 
+                    AVEC ERIC, Ripert’s first TV show, debuted on PBS stations and ran for 
+                    two successful seasons, earning two Daytime Emmy Awards: “Outstanding 
+                    Culinary Program”.</p>
+                </div>
             </div>
-              <button type="button" class="col col-5 btn btn-outline-light form-item">Submit</button>
         </div>
-    </form>
-</div>
     </section>
-    <!-------------------------------------------------------------------------------------------------Footer-->
+   <!--- <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h5>Contact</h5>
+                    <p>
+                    9623 Jefferson Street
+                    Huntley, IL 60142, Stockholm, Sweden.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>  --->
     <footer>
         <div class="container-fluid footer-prop">
             <div class="row justify-content-center">
@@ -96,8 +103,8 @@
                     9623 Jefferson Street
                     Huntley, IL 60142, Stockholm, Sweden.
                     </p>
-                    <p><i class="fas fa-phone"></i>+555-2345-225</p>
-                    <p><i class="fas fa-envelope-square"></i>contact_us@curryt.com</p>
+                    <p><i class="fa fa-mobile"></i>+555-2345-225</p>
+                    <p><i class="fa fa-envelope-square"></i>contact_us@curryt.com</p>
                 </div>
                 <div class="col col-12 col-md-4">
                 <h5>Opening Hours</h5>

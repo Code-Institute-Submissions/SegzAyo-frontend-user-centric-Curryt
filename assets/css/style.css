@@ -4,7 +4,7 @@
 /*---------------------------------------------------Fonts Styling----------------*/
 
 
-.Logo-styling {
+.navbar-dark .navbar-brand {
     font-family: cursive;
     font-weight: 100;
     font-size: 20px;
@@ -18,7 +18,7 @@
     font-weight: 100;
     font-size: 60px;
     margin-top: 350px;
-    color: #fff;
+    color: #FF1E00;
 }
 
 .Menu-image-logo-styling {
@@ -26,7 +26,7 @@
     font-weight: 100;
     font-size: 60px;
     margin-top: 200px;
-    color: #fff;
+    color:#fff;
 }
 
 .headings0-style {
@@ -68,7 +68,7 @@ header {
 .image-container-property {
     text-align: center;
     height: 576px;
-    background-image: url("/assets/images/chef-preparing-vegetable-dish-on-tree-slab-1267320.jpg");
+    background-image: url("/assets/images/resturang-banner.jpg");
     background-size: cover;
     background-position: center;
     
@@ -250,11 +250,44 @@ header {
 
 .form-container {
     padding: 50px 0;
+    background-image: url("/assets/images/Artboard 1.png");
+    background-size: cover;
+    background-position: center;
    
 }
 
 .Row-style {
     margin: 50px;
     padding: 50px 0;
+    background-color: rgba(89, 2, 2, .6);
+}
+
+/*-------------------------------------------------------------------------------------About-Us--*/
+
+.chef-image {
+    background-image: url("/assets/images/15738037535185rNjzYb1Ud8sb_O.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+}
+
+.About-Col-spacing {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.About-form-spacing {
+    margin: 50px 50px 20px 50px;
+    padding: 50px 0;
     background-color: #FFF2F2;
+}
+
+.Abou-form-container {
+    padding: 50px 0;
+    background-image: url("/assets/images/15738037535185rNjzYb1Ud8sb_O.jpg");
+    background-size: cover;
+    background-position: center;
+    
+   
 }

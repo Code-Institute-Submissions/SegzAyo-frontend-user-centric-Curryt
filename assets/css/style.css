@@ -243,23 +243,32 @@ header {
 /*------------------------------------------------------------------------------------------------Form-style--*/
 
 .form-item {
-    margin: 5px 0;
+    margin: 0;
 }
 
 
 
 .form-container {
-    padding: 50px 0;
+    padding: 120px 0;
     background-image: url("/assets/images/Artboard 1.png");
     background-size: cover;
     background-position: center;
    
 }
 
-.Row-style {
-    margin: 50px;
-    padding: 50px 0;
-    background-color: rgba(89, 2, 2, .6);
+.button-col-style {
+    margin: 0;
+    padding: 5px 20px;
+
+}
+
+.form-row>.col, .form-row>[class*=col-] {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    background-color: rgba(173, 173, 173, .8);
 }
 
 /*-------------------------------------------------------------------------------------About-Us--*/

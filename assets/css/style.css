@@ -68,7 +68,7 @@ header {
 .image-container-property {
     text-align: center;
     height: 576px;
-    background-image: url("/assets/images/resturang-banner.jpg");
+    background-image: url("../images/resturang-banner.jpg");
     background-size: cover;
     background-position: center;
     
@@ -77,7 +77,7 @@ header {
 .Menu-header-property {
     text-align: center;
     height: 360px;
-    background-image: url("/assets/images/restaurant-dark-bar-architecture-34650.jpg");
+    background-image: url("../images/restaurant-dark-bar-architecture-34650.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -122,7 +122,7 @@ header {
 }
 
 .Veggie {
-    background-image: url("/assets/images/zi3000-shutterstock-buddha-bowl.jpg");
+    background-image: url("../images/zi3000-shutterstock-buddha-bowl.jpg");
     background-size: cover;
     background-position: center;
     
@@ -130,14 +130,14 @@ header {
 }
 
 .Pizza {
-    background-image: url("/assets/images/DSC_4464111.jpg");
+    background-image: url("../images/DSC_4464111.jpg");
     background-size: cover;
     background-position: center;
     
 }
 
 .Pasta {
-    background-image: url("/assets/images/468.jpg");
+    background-image: url("../images/468.jpg");
     background-size: cover;
     background-position: center;
    
@@ -170,55 +170,55 @@ header {
 
 /*----------------------------------------------------------------MENU IMAGES--*/
 .menu-image1 {
-    background-image: url("/assets/images/114670765-italian-pizza-margherita-with-tomatoes-and-mozzarella-cheese-on-wooden-cutting-board-close-up.jpg");
+    background-image: url("../images/114670765-italian-pizza-margherita-with-tomatoes-and-mozzarella-cheese-on-wooden-cutting-board-close-up.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .menu-image2 {
-    background-image: url("/assets/images/18cb78f0e7dc9455712656ad075f67ad.jpg");
+    background-image: url("../images/18cb78f0e7dc9455712656ad075f67ad.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .menu-image3 {
-    background-image: url("/assets/images/12.jpeg");
+    background-image: url("../images/12.jpeg");
     background-size: cover;
     background-position: center;
 }
 
 .menu-image4 {
-    background-image: url("/assets/images/bucatini-all-amatriciana.jpg");
+    background-image: url("../images/bucatini-all-amatriciana.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .menu-image5 {
-    background-image: url("/assets/images/Gnocchi-alla-Sorrentina-Ricetta-Napoletana.jpg");
+    background-image: url("../images/Gnocchi-alla-Sorrentina-Ricetta-Napoletana.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .menu-image6 {
-    background-image: url("/assets/images/Pomodoro-Sauce-foodiecrush.com-015.jpg");
+    background-image: url("../images/Pomodoro-Sauce-foodiecrush.com-015.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .menu-image7 {
-    background-image: url("/assets/images/tortilla-patatas-2-lr-750x390.jpg");
+    background-image: url("../images/tortilla-patatas-2-lr-750x390.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .menu-image8 {
-    background-image: url("/assets/images/15951---Vegetable-Spring-Rolls.jpg");
+    background-image: url("../images/15951---Vegetable-Spring-Rolls.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .menu-image9 {
-    background-image: url("/assets/images/zi3000-shutterstock-buddha-bowl.jpg");
+    background-image: url("../images/zi3000-shutterstock-buddha-bowl.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -250,7 +250,7 @@ header {
 
 .form-container {
     padding: 120px 0;
-    background-image: url("/assets/images/Artboard 1.png");
+    background-image: url("../images/Artboard 1.png");
     background-size: cover;
     background-position: center;
    
@@ -274,7 +274,7 @@ header {
 /*-------------------------------------------------------------------------------------About-Us--*/
 
 .chef-image {
-    background-image: url("/assets/images/15738037535185rNjzYb1Ud8sb_O.jpg");
+    background-image: url("../images/15738037535185rNjzYb1Ud8sb_O.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -294,7 +294,7 @@ header {
 
 .Abou-form-container {
     padding: 50px 0;
-    background-image: url("/assets/images/15738037535185rNjzYb1Ud8sb_O.jpg");
+    background-image: url("../images/15738037535185rNjzYb1Ud8sb_O.jpg");
     background-size: cover;
     background-position: center;
     
